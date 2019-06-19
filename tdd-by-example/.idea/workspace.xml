@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd9ae4bf-bc36-4f81-9862-b41be4b46501" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/.ipynb_checkpoints/00-Numpy-Arrays-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/.ipynb_checkpoints/01-Images-and-NumPy-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/.ipynb_checkpoints/03-Numpy-and-Image-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/.ipynb_checkpoints/04-Numpy-and-Image-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/00-NumPy-Arrays.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/01-Images-and-NumPy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/03-Numpy-and-Image-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00-NumPy-and-Image-Basics/04-Numpy-and-Image-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/00-Opening-Image-Files-in-a-Notebook-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/01-Opening-Image-Files-OpenCV-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/01-Opening-Images-with-OpenCV-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/02-Drawing-on-Images-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/03-Direct-Drawing-with-Mouse-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/03-Direct-Drawing-with-Mouse-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/04-Image-Basics-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/05-Blending-and-Pasting-Images-Copy1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/05-Image-Basics-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/05-Solution-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/06-Filtering-and-Blurring-Images-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/07-Transforming-Images-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/08-Histograms-and-Pixels-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/09-Color-Mappings-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/.ipynb_checkpoints/my_new_picture-checkpoint.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/00-Opening-Image-Files-in-a-Notebook.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/01-Opening-Image-Files-OpenCV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/01-Opening-Images-with-OpenCV.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/02-Drawing-on-Images.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/03-Direct-Drawing-with-Mouse.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/03-Direct-Drawing-with-Mouse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/04-Image-Basics-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/05-Image-Basics-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/05-Solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-Image-Basics-with-OpenCV/my_new_picture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/00-Color-Mappings-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/01-Blending-and-Pasting-Images-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/02-Image-Thresholding-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/03-Blurring-and-Smoothing-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/04-Morphological-Operators-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/05-Gradients-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/06-Histograms-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/07-Image-Processing-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/.ipynb_checkpoints/08-Image-Processing-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/00-Color-Mappings.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/01-Blending-and-Pasting-Images.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/02-Image-Thresholding.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/03-Blurring-and-Smoothing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/04-Morphological-Operators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/05-Gradients.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/06-Histograms.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/07-Image-Processing-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-Image-Processing/08-Image-Processing-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/00-Connecting-to-Camera-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/01-Using-Video-Files-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/02-Drawing-on-Live-Camera-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/02-MeanShift-Tracking-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/03-CamShift-Tracking-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/03-Video-Basics-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/04-Tracking-APIs-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/.ipynb_checkpoints/04-Video-Basics-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/00-Connecting-to-Camera.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/01-Using-Video-Files.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/02-Drawing-on-Live-Camera.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/03-Video-Basics-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-Video-Basics/04-Video-Basics-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/00-Template-Matching-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/01-Corner-Detection-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/02-Edge-Detection-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/03-Grid-Detection-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/04-Contour-Detection-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/05-Feature-Matching-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/06-Watershed-Algorithm-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/07-Custom-Seeds-with-Watershed-Algo-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/08-Face-Detection-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/09-Detection-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/.ipynb_checkpoints/10-Detection-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/00-Template-Matching.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/01-Corner-Detection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/02-Edge-Detection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/03-Grid-Detection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/04-Contour-Detection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/05-Feature-Matching.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/06-Watershed-Algorithm.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/07-Custom-Seeds-with-Watershed-Algo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/08-Face-Detection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/09-Detection-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-Object-Detection/10-Detection-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/.ipynb_checkpoints/00-Optical-Flow-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/.ipynb_checkpoints/01-MeanShift-Tracking-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/.ipynb_checkpoints/02-CamShift-Tracking-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/.ipynb_checkpoints/03-Tracking-APIs-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/.ipynb_checkpoints/04-Object-Tracking-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/.ipynb_checkpoints/05-Object-Tracking-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/00-Optical-Flow.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/01-MeanShift-Tracking.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/02-CamShift-Tracking.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/03-Tracking-APIs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/04-Object-Tracking-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-Object-Tracking/05-Object-Tracking-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/00-Keras-Basics-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/01-Keras-CNN-MNIST-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/02-Keras-CNN-CIFAR-10-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/03-Deep-Learning-Custom-Images-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/05-DL-CV-Assessment-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/06-DL-CV-Assessment-Solution-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/.ipynb_checkpoints/06-YOLO-Object-Detection-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/00-Keras-Basics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/01-Keras-CNN-MNIST.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/02-Keras-CNN-CIFAR-10.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/03-Deep-Learning-Custom-Images.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/05-DL-CV-Assessment.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-DL-CV-Assessment-Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/06-YOLO-Object-Detection.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/cfg/yolo.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/data/coco_classes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/images/res/jingxiang-gao-489454-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/images/res/person.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/images/test/jingxiang-gao-489454-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/images/test/person.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/images/yolo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/model/darknet53.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/model/yolo_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/06-YOLOv3/yad2k.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/cat_dog.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/cat_dog_100epochs.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/cifar_10epochs.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/larger_CIFAR10_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06-Deep-Learning-Computer-Vision/myfirstmodel.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/.ipynb_checkpoints/bank_note_data-checkpoint.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/00-puppy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/Denis_Mukwege.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/Nadia_Murad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/ReceiptSwiss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/bank_note_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/bricks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/car_plate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/cartoon_receipt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/chessboard_mat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/coins_on_white.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/crossword.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/damien_hirst_dot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/dog_backpack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/dog_backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/dot_grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/finger_move.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/five_shapes.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/flat_chessboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/giraffes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/gorilla.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_eye.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_frontalcatface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_frontalcatface_extended.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_frontalface_alt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_frontalface_alt2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_frontalface_alt_tree.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_frontalface_default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_fullbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_lefteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_licence_plate_rus_16stages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_lowerbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_profileface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_righteye_2splits.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_russian_plate_number.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_smile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/haarcascades/haarcascade_upperbody.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/hand_move.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/horse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/internal_external.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/lbpcascades/lbpcascade_frontalcatface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/lbpcascades/lbpcascade_frontalface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/lbpcascades/lbpcascade_frontalface_improved.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/lbpcascades/lbpcascade_profileface.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/lbpcascades/lbpcascade_silverware.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/lucky_charms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/many_cereals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/overlap_coins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/pennies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/rainbow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/real_chessboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/reeses_puffs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/road_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/sammy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/sammy_face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/sammy_noise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/separate_coins.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/solvay_conference.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/sudoku.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/uspassport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/video_capture.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/watermark_no_copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DATA/wood_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../macos_coursecv.yml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Foo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/FooTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Foo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/FooTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-671" />
+    <option name="y" value="-1417" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tdd-by-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-by-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-by-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-by-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-by-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-by-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-by-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-by-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-by-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-by-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tdd-by-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdd-by-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560933156554" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.diegogarciaviana.testing" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogarciaviana.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.diegogarciaviana.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.diegogarciaviana.testing.FooTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FooTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd9ae4bf-bc36-4f81-9862-b41be4b46501" name="Default Changelist" comment="" />
+      <created>1560932754853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560932754853</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FooTest - 2019.06.19 at 10h 29m 42s.xml">
+      <configuration name="FooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FooTest - 2019.06.19 at 10h 30m 41s.xml">
+      <configuration name="FooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FooTest - 2019.06.19 at 10h 30m 58s.xml">
+      <configuration name="FooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FooTest - 2019.06.19 at 10h 31m 06s.xml">
+      <configuration name="FooTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-671" y="-1417" width="2560" height="1417" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16309524" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32847276" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32847276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/FooTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tdd-by-example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
