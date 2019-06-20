@@ -16,6 +16,7 @@ public class Dollar {
         return amount;
     }
 
+    // This method allows to us to compare two objects in the tests
     public boolean equals(Object object) {
         Dollar dollar = (Dollar) object;
         return amount == dollar.getAmount();
