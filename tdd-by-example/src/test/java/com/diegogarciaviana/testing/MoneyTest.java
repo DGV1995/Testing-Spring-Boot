@@ -58,8 +58,6 @@ public class MoneyTest {
         Money five = Money.dollar(5);
         Sum sum = five.plus(five);
 
-        //Sum sum = (Sum) result;
-
         assertEquals(five, sum.getAddment());
         assertEquals(five, sum.getAugmend());
 
@@ -74,6 +72,22 @@ public class MoneyTest {
         Expression reduced = bank.reduce(sum, "USD");
         assertEquals(Money.dollar(7), reduced);
 
+    }
+
+    @Test
+    public void testReduceMoneyDifferentCurrency() {
+
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+        Money result = bank.reduce(Money.franc(2), "USD");
+        assertEquals(Money.dollar(1), result);
+
+    }
+
+    @Test
+    public void testIdentityRate() {
+        assertEquals(1, new Bank().rate("USD", "USD"));
+        assertEquals(1, new Bank().rate("CHF", "CHF"));
     }
 
 }

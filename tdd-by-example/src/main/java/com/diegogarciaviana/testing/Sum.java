@@ -18,7 +18,8 @@ public class Sum implements Expression {
         return addment;
     }
 
-    public Money reduce(String toCurrency) {
+    @Override
+    public Money reduce(Bank bank, String toCurrency) {
         int amount = augmend.getAmount() + addment.getAmount();
         return new Money(amount, toCurrency);
     }
