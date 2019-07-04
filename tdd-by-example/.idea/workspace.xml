@@ -198,14 +198,8 @@
       <change beforePath="$PROJECT_DIR$/../../DATA/video_capture.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DATA/watermark_no_copy.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DATA/wood_detail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Dollar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Franc.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/FooTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogarciaviana/testing/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogarciaviana/testing/Money.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../macos_coursecv.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -218,11 +212,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="497">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,17 +224,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" column="85" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+            <state relative-caret-position="420">
+              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#403#404#0" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
                 <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Expression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -251,6 +292,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -265,8 +307,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/FooTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Franc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java" />
       </list>
     </option>
   </component>
@@ -347,7 +393,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562231273830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562234998588" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -478,34 +524,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2019.07.03 at 16h 34m 45s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 11h 07m 01s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.03 at 16h 36m 32s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 11h 32m 21s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.03 at 16h 37m 10s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 11h 35m 11s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.03 at 16h 37m 42s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 11h 43m 18s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.04 at 11h 02m 06s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 11h 56m 59s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.04 at 11h 03m 36s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 12h 03m 37s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest_testMultiplication - 2019.07.04 at 11h 04m 42s.xml">
-      <configuration name="MoneyTest.testMultiplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2019.07.04 at 11h 04m 44s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 12h 06m 23s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.04 at 11h 05m 40s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 12h 07m 11s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyTest - 2019.07.04 at 11h 06m 22s.xml">
+    <history-entry file="MoneyTest - 2019.07.04 at 12h 07m 53s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2019.07.04 at 12h 08m 53s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -584,25 +630,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="85" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+        <state relative-caret-position="420">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

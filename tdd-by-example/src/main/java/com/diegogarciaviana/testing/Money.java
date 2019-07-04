@@ -1,6 +1,6 @@
 package com.diegogarciaviana.testing;
 
-public class Money {
+public class Money implements Expression {
 
     protected int amount;
     protected String currency;
@@ -33,6 +33,15 @@ public class Money {
     }
 
     public Money times(int multiplier) {
-        return new Money(this.getAmount() * multiplier, this.currency());
+        return new Money(this.amount * multiplier, this.currency);
     }
+
+    public Sum plus(Money addend) {
+        return new Sum(this, addend);
+    }
+
+    public Money reduce(String toCurrency) {
+        return this;
+    }
+
 }
