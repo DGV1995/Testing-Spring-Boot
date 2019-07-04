@@ -198,10 +198,6 @@
       <change beforePath="$PROJECT_DIR$/../../DATA/video_capture.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DATA/watermark_no_copy.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DATA/wood_detail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Dollar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Franc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/testing/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../macos_coursecv.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -217,7 +213,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
+            <state relative-caret-position="442">
               <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -373,7 +369,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562164774353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562164791428" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -548,7 +544,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3204023" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3204023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/testing/MoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="442">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
