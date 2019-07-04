@@ -1,5 +1,8 @@
 package com.diegogarciaviana.testing;
 
 public interface Expression {
-    Money reduce(Bank bank, String to);
+
+    public Money reduce(Bank bank, String to);
+    public Expression plus(Expression addend);
+
 }

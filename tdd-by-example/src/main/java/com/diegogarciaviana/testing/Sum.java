@@ -2,26 +2,29 @@ package com.diegogarciaviana.testing;
 
 public class Sum implements Expression {
 
-    private Money augmend;
-    private Money addment;
+    private Expression augmend;
+    private Expression addment;
 
-    public Sum(Money augmend, Money addment) {
+    public Sum(Expression augmend, Expression addment) {
         this.augmend = augmend;
         this.addment = addment;
     }
 
-    public Money getAugmend() {
+    public Expression getAugmend() {
         return augmend;
     }
 
-    public Money getAddment() {
+    public Expression getAddment() {
         return addment;
     }
 
     @Override
-    public Money reduce(Bank bank, String toCurrency) {
-        int amount = augmend.getAmount() + addment.getAmount();
-        return new Money(amount, toCurrency);
+    public Money reduce(Bank bank, String to) {
+        int amount = this.augmend.reduce(bank, to).getAmount() + this.addment.reduce(bank, to).getAmount();
+        return new Money(amount, to);
     }
+
+    @Override
+    public Expression plus(Expression addend){return null;}
 
 }

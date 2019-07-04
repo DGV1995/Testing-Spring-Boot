@@ -7,8 +7,8 @@ public class Bank {
     // Like a list
     private HashMap<Pair, Integer> rateMap = new HashMap();
 
-    public Money reduce(Expression source, String toCurrency) {
-        return source.reduce(this, toCurrency);
+    public Money reduce(Expression source, String to) {
+        return source.reduce(this, to);
     }
 
     public void addRate(String from, String to, int rate) {
