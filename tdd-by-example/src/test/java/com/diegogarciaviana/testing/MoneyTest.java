@@ -42,11 +42,11 @@ public class MoneyTest {
     @Test
     public void testSimpleAddition() {
 
-        Money five = Money.dollar(5);
+        Expression five = Money.dollar(5);
         Expression sum = five.plus(five);
 
         Bank bank = new Bank();
-        Money reduced = bank.reduce(sum, "USD");
+        Expression reduced = bank.reduce(sum, "USD");
 
         assertEquals(Money.dollar(10), reduced);
 
@@ -55,7 +55,7 @@ public class MoneyTest {
     @Test
     public void testPlusReturnSum() {
 
-        Money five = Money.dollar(5);
+        Expression five = Money.dollar(5);
         Expression result = five.plus(five);
 
         Sum sum = (Sum) result;
@@ -81,7 +81,7 @@ public class MoneyTest {
 
         Bank bank = new Bank();
         bank.addRate("CHF", "USD", 2);
-        Money result = bank.reduce(Money.franc(2), "USD");
+        Expression result = bank.reduce(Money.franc(2), "USD");
         assertEquals(Money.dollar(1), result);
 
     }
@@ -104,6 +104,38 @@ public class MoneyTest {
         Expression result = bank.reduce(fiveDollars.plus(tenFrancs), "USD");
 
         assertEquals(Money.dollar(10), result);
+
+    }
+
+    @Test
+    public void testSumPlus() {
+
+        Expression fiveDollars = Money.dollar(5);
+        Expression tenFrancs = Money.franc(10);
+
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+
+        Expression sum = new Sum(fiveDollars, tenFrancs).plus(fiveDollars);
+        Expression result = bank.reduce(sum, "USD");
+
+        assertEquals(Money.dollar(15), result);
+
+    }
+
+    @Test
+    public void testSumTimes() {
+
+        Expression fiveDollars = Money.dollar(5);
+        Expression tenFrancs = Money.franc(10);
+
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+
+        Expression sum = new Sum(fiveDollars, tenFrancs).times(2);
+        Expression result = bank.reduce(sum, "USD");
+
+        assertEquals(Money.dollar(20), result);
 
     }
 

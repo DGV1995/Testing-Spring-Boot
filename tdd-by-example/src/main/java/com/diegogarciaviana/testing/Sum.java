@@ -25,6 +25,14 @@ public class Sum implements Expression {
     }
 
     @Override
-    public Expression plus(Expression addend){return null;}
+    public Expression plus(Expression addend) {
+        return new Sum(this, addend);
+    }
+
+    @Override
+    public Expression times(int multiplier) {
+        // It does, for example, (5 + 2) * 3 = 5*3 + 2*3 = 21 ==> 7 * 3 = 21
+        return new Sum(augmend.times(multiplier), addment.times(multiplier));
+    }
 
 }
