@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa809830-0fa8-45cc-8b9d-6b700cd3c0d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/app/Greating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/app/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreatingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/diegogarciaviana/app/GreatingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/diegogarciaviana/app/GreatingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogarciaviana/app/Greating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/diegogarciaviana/app/GreatingTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +24,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.405291">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/app/Greeting.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
@@ -35,18 +39,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -54,10 +46,18 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+                <state relative-caret-position="690">
+                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#367#368#0" expanded="true" />
+                    <element signature="e#404#405#0" expanded="true" />
+                    <element signature="e#362#363#0" expanded="true" />
+                    <element signature="e#428#429#0" expanded="true" />
+                    <element signature="e#711#712#0" expanded="true" />
+                    <element signature="e#739#740#0" expanded="true" />
+                    <element signature="e#843#844#0" expanded="true" />
+                    <element signature="e#880#881#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -81,9 +81,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/diegogarciaviana/app/Greating.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreatingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -185,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562324794451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562327191243" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GreetingTest.testHelloName">
     <configuration name="GreetingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="introjunit5" />
       <extension name="coverage">
@@ -214,8 +214,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GreetingTest.testHelloName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="introjunit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogarciaviana.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.diegogarciaviana.app" />
+      <option name="MAIN_CLASS_NAME" value="com.diegogarciaviana.app.GreetingTest" />
+      <option name="METHOD_NAME" value="testHelloName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreetingTest.testHelloName" />
         <item itemvalue="JUnit.GreetingTest" />
       </list>
     </recent_temporary>
@@ -249,16 +266,32 @@
     <history-entry file="GreatingTest - 2019.07.05 at 13h 05m 31s.xml">
       <configuration name="GreatingTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GreetingTest - 2019.07.05 at 13h 25m 55s.xml">
+      <configuration name="GreetingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingTest - 2019.07.05 at 13h 28m 46s.xml">
+      <configuration name="GreetingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingTest - 2019.07.05 at 13h 31m 39s.xml">
+      <configuration name="GreetingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingTest - 2019.07.05 at 13h 33m 12s.xml">
+      <configuration name="GreetingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingTest_testHelloName - 2019.07.05 at 13h 35m 39s.xml">
+      <configuration name="GreetingTest.testHelloName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-671" y="-1417" width="2560" height="1417" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15912698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15912698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -273,7 +306,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.3297619" />
+      <window_info anchor="right" id="Maven" weight="0.32936507" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -282,13 +315,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/diegogarciaviana/app/Greeting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -302,12 +328,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/diegogarciaviana/app/GreetingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="690">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
           </folding>
         </state>
       </provider>
