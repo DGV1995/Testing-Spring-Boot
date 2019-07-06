@@ -1,4 +1,4 @@
-package com.junit.app;
+package com.junit5.app;
 
 public class IndexController {
 

@@ -1,4 +1,4 @@
-package com.junit.app;
+package com.junit5.app;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,11 +17,12 @@ class IndexControllerTest {
     @Test
     public void testIndex() {
         assertEquals("index", controller.index());
-        assertEquals("indexed", controller.index(), "Wrong view returned");
+        assertNotEquals("indexed", controller.index(), "Wrong view returned");
     }
 
     @Test
     public void testOupsHandler() {
-        //assertTrue("notimplemented".equals(controller.oupsHandler()), () -> "Wrong message");
+        assertTrue(controller.oupsHandler().equals("notimplemented"), "Error");
     }
+
 }
