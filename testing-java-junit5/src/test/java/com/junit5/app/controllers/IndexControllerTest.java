@@ -1,4 +1,4 @@
-package com.junit5.app;
+package com.junit5.app.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

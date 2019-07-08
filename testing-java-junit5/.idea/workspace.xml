@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5be105bf-57bc-4988-8758-6c66bfd104fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../introjunit5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../introjunit5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/junit5/app/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junit5/app/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/junit5/app/IndexControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/junit5/app/IndexControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-java-junit5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junit5/app/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junit5/app/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/junit5/app/IndexControllerTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +23,36 @@
     <splitter split-orientation="horizontal" split-proportion="0.3940556">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/IndexController.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/IndexController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
+                <state>
+                  <caret column="34" selection-start-column="34" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#83#84#0" expanded="true" />
+                    <element signature="e#113#114#0" expanded="true" />
+                    <element signature="e#148#149#0" expanded="true" />
+                    <element signature="e#187#188#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                  <folding>
+                    <element signature="e#280#281#0" expanded="true" />
+                    <element signature="e#312#313#0" expanded="true" />
+                    <element signature="e#362#363#0" expanded="true" />
+                    <element signature="e#404#405#0" expanded="true" />
+                    <element signature="e#439#440#0" expanded="true" />
+                    <element signature="e#470#471#0" expanded="true" />
+                    <element signature="e#518#519#0" expanded="true" />
+                    <element signature="e#558#559#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -39,13 +61,27 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+                <state>
+                  <caret column="34" selection-start-column="34" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#256#257#0" expanded="true" />
+                    <element signature="e#292#293#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -70,8 +106,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/IndexController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java" />
       </list>
     </option>
   </component>
@@ -126,14 +167,6 @@
               <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
               <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,14 +175,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,9 +185,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562584710578" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562587216208" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/junit5/app" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -170,6 +196,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.junit5.app.models" />
       <recent name="com.junit5.app" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -188,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IndexControllerTest.testIndex">
+  <component name="RunManager" selected="JUnit.PersonTest">
     <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
@@ -235,8 +262,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junit5.app.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junit5.app.models" />
+      <option name="MAIN_CLASS_NAME" value="com.junit5.app.models.PersonTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.groupedAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junit5.app.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junit5.app.models" />
+      <option name="MAIN_CLASS_NAME" value="com.junit5.app.models.PersonTest" />
+      <option name="METHOD_NAME" value="groupedAssertions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonTest.groupedAssertions" />
         <item itemvalue="JUnit.IndexControllerTest.testIndex" />
         <item itemvalue="JUnit.IndexControllerTest.testOupsHandler" />
         <item itemvalue="JUnit.IndexControllerTest" />
@@ -257,15 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IndexControllerTest_testIndex - 2019.07.06 at 18h 08m 51s.xml">
-      <configuration name="IndexControllerTest.testIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest - 2019.07.06 at 18h 10m 40s.xml">
-      <configuration name="IndexControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest - 2019.07.06 at 18h 11m 00s.xml">
-      <configuration name="IndexControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IndexControllerTest_testOupsHandler - 2019.07.06 at 18h 11m 48s.xml">
       <configuration name="IndexControllerTest.testOupsHandler" configurationId="JUnit" />
     </history-entry>
@@ -286,6 +336,15 @@
     </history-entry>
     <history-entry file="IndexControllerTest_testIndex - 2019.07.08 at 13h 17m 24s.xml">
       <configuration name="IndexControllerTest.testIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.07.08 at 13h 54m 06s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_groupedAssertions - 2019.07.08 at 13h 58m 52s.xml">
+      <configuration name="PersonTest.groupedAssertions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_groupedAssertions - 2019.07.08 at 13h 59m 57s.xml">
+      <configuration name="PersonTest.groupedAssertions" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -329,19 +388,54 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
           </folding>
         </state>
       </provider>
