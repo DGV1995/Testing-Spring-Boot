@@ -17,12 +17,13 @@ class IndexControllerTest {
     @Test
     public void testIndex() {
         assertEquals("index", controller.index());
-        assertNotEquals("indexed", controller.index(), "Wrong view returned");
+        assertEquals("indexed", controller.index(), "Wrong view returned");
     }
 
     @Test
     public void testOupsHandler() {
-        assertTrue(controller.oupsHandler().equals("notimplemented"), "Error");
+        // We can also use lambda expressions
+        assertTrue(controller.oupsHandler().equals("notimplemented"), () -> "This is some expensive Message to build for my test");
     }
 
 }
