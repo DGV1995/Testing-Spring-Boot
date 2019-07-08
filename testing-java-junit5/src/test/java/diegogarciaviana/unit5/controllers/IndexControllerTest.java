@@ -1,6 +1,7 @@
 package diegogarciaviana.unit5.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,6 +16,7 @@ class IndexControllerTest {
     }
 
     @Test
+    @DisplayName("Test Proper View name is returned for index page") // This will be the text that will appear in the tests window
     void index() {
         assertEquals("index", controller.index());
         assertEquals("index", controller.index(), "Wrong View Returned");
@@ -24,9 +26,9 @@ class IndexControllerTest {
     }
 
     @Test
+    @DisplayName("Test exception")
     void oupsHandler() {
-        assertTrue("notimplemented".equals(controller.oupsHandler()), () -> "This is some expensive " +
-                "Message to build" +
-                "for my test");
+        // This method should throws an exception
+        assertThrows(ValueNotFoundException.class, () -> controller.oopsHandler());
     }
 }
