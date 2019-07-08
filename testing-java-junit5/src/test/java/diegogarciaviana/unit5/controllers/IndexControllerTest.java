@@ -1,12 +1,16 @@
 package diegogarciaviana.unit5.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.*;
 
 import java.time.Duration;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 class IndexControllerTest {
 
@@ -25,6 +29,9 @@ class IndexControllerTest {
 
         assertEquals("index", controller.index(), () -> "Another Expensive Message " +
                 "Make me only if you have to");
+
+        // Using AssertJ library
+        assertThat(controller.index()).isEqualTo("index");
     }
 
     @Test
@@ -34,6 +41,7 @@ class IndexControllerTest {
         assertThrows(ValueNotFoundException.class, () -> controller.oopsHandler());
     }
 
+    @Disabled("Demo of timeout")
     @Test
     public void testTimeOut() {
         assertTimeout(Duration.ofMillis(100), () -> {
@@ -42,6 +50,7 @@ class IndexControllerTest {
         });
     }
 
+    @Disabled
     @Test
     public void testTimeOutPreempt() {
         assertTimeoutPreemptively(Duration.ofMillis(100), () -> {
@@ -49,5 +58,45 @@ class IndexControllerTest {
             System.out.println("I got here 23232323232");
         });
     }
+
+    @Test
+    public void testAssumptionTrue() {
+        // If it fails, it won't break everything
+        assumeTrue("GURU".equalsIgnoreCase("GURU_RUNTIME"));
+    }
+
+    @Test
+    public void testAssumptionTrueIsTrue() {
+        assumeTrue("GURU".equalsIgnoreCase("GURU"));
+    }
+
+    // It will run if your OS is MacOS
+    @EnabledOnOs(OS.MAC)
+    @Test
+    public void testMeOnMacOS() {}
+
+    @EnabledOnOs(OS.WINDOWS)
+    @Test
+    public void testMeOnWindows() {}
+
+    // It will run if your JRE is Java 8
+    @EnabledOnJre(JRE.JAVA_8)
+    @Test
+    public void testMeOnJava8() {}
+
+    @EnabledOnJre(JRE.JAVA_11)
+    @Test
+    public void testMeOnJava11() {}
+
+    // It will run if the user name is "diegogarcia-viana"
+    @EnabledIfEnvironmentVariable(named = "USER", matches = "diegogarcia-viana")
+    @Test
+    public void testIfUserDiego() {
+
+    }
+
+    @EnabledIfEnvironmentVariable(named = "USER", matches = "fred")
+    @Test
+    public void testIfUserFred() {}
 
 }
