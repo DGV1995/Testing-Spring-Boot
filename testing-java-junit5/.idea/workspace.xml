@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5be105bf-57bc-4988-8758-6c66bfd104fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/junit5/app/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/app/IndexControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/junit5/app/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/junit5/app/IndexControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/junit5/app/models/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/junit5/app/models/PersonTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +38,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
                   <folding>
                     <element signature="e#280#281#0" expanded="true" />
                     <element signature="e#312#313#0" expanded="true" />
@@ -57,11 +57,122 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Owner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#299#300#0" expanded="true" />
+                    <element signature="e#318#319#0" expanded="true" />
+                    <element signature="e#383#384#0" expanded="true" />
+                    <element signature="e#413#414#0" expanded="true" />
+                    <element signature="e#817#818#0" expanded="true" />
+                    <element signature="e#847#848#0" expanded="true" />
+                    <element signature="e#893#894#0" expanded="true" />
+                    <element signature="e#931#932#0" expanded="true" />
+                    <element signature="e#962#963#0" expanded="true" />
+                    <element signature="e#989#990#0" expanded="true" />
+                    <element signature="e#1029#1030#0" expanded="true" />
+                    <element signature="e#1061#1062#0" expanded="true" />
+                    <element signature="e#1097#1098#0" expanded="true" />
+                    <element signature="e#1129#1130#0" expanded="true" />
+                    <element signature="e#1179#1180#0" expanded="true" />
+                    <element signature="e#1221#1222#0" expanded="true" />
+                    <element signature="e#1254#1255#0" expanded="true" />
+                    <element signature="e#1281#1282#0" expanded="true" />
+                    <element signature="e#1323#1324#0" expanded="true" />
+                    <element signature="e#1355#1356#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/services/OwnerJpaService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#707#708#0" expanded="true" />
+                    <element signature="e#744#745#0" expanded="true" />
+                    <element signature="e#1298#1299#0" expanded="true" />
+                    <element signature="e#1346#1347#0" expanded="true" />
+                    <element signature="e#1413#1414#0" expanded="true" />
+                    <element signature="e#1450#1451#0" expanded="true" />
+                    <element signature="e#1505#1506#0" expanded="true" />
+                    <element signature="e#1535#1536#0" expanded="true" />
+                    <element signature="e#1607#1608#0" expanded="true" />
+                    <element signature="e#1637#1638#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/OwnerRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/services/OwnerService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/PetTypeRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/PetRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Pet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
@@ -73,15 +184,27 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#256#257#0" expanded="true" />
                     <element signature="e#292#293#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/OwnerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -94,8 +217,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,6 +237,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/controllers/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/junit5/app/models/OwnerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/models/Owner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/models/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/PetRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/models/PetType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/PetTypeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/OwnerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/services/OwnerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/junit5/app/services/OwnerJpaService.java" />
       </list>
     </option>
   </component>
@@ -167,6 +300,50 @@
               <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
               <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +352,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +388,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562587216208" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562590390573" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/junit5/app" />
@@ -215,21 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest">
-    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing-java-junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.junit5.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.junit5.app" />
-      <option name="MAIN_CLASS_NAME" value="com.junit5.app.IndexControllerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OwnerTest">
     <configuration name="IndexControllerTest.testIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
@@ -246,17 +435,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexControllerTest.testOupsHandler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OwnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.junit5.app.*" />
+          <option name="PATTERN" value="com.junit5.app.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.junit5.app" />
-      <option name="MAIN_CLASS_NAME" value="com.junit5.app.IndexControllerTest" />
-      <option name="METHOD_NAME" value="testOupsHandler" />
+      <option name="PACKAGE_NAME" value="com.junit5.app.models" />
+      <option name="MAIN_CLASS_NAME" value="com.junit5.app.models.OwnerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerTest.dependetAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junit5.app.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.junit5.app.models" />
+      <option name="MAIN_CLASS_NAME" value="com.junit5.app.models.OwnerTest" />
+      <option name="METHOD_NAME" value="dependetAssertions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,11 +497,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OwnerTest" />
+        <item itemvalue="JUnit.OwnerTest.dependetAssertions" />
         <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.PersonTest.groupedAssertions" />
         <item itemvalue="JUnit.IndexControllerTest.testIndex" />
-        <item itemvalue="JUnit.IndexControllerTest.testOupsHandler" />
-        <item itemvalue="JUnit.IndexControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,12 +519,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IndexControllerTest_testOupsHandler - 2019.07.06 at 18h 11m 48s.xml">
-      <configuration name="IndexControllerTest.testOupsHandler" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest - 2019.07.07 at 14h 55m 53s.xml">
-      <configuration name="IndexControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IndexControllerTest - 2019.07.08 at 12h 31m 26s.xml">
       <configuration name="IndexControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -346,12 +543,18 @@
     <history-entry file="PersonTest_groupedAssertions - 2019.07.08 at 13h 59m 57s.xml">
       <configuration name="PersonTest.groupedAssertions" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest - 2019.07.08 at 14h 00m 18s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OwnerTest - 2019.07.08 at 14h 16m 43s.xml">
+      <configuration name="OwnerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-671" y="-1417" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17222223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17222223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +563,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32847276" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32847276" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,7 +571,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292402" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292402" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32847276" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -401,6 +604,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/OwnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/controllers/IndexControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -411,10 +636,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/PetRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/PetType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/PetTypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/models/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -428,14 +717,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/junit5/app/models/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/services/OwnerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/repositories/OwnerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/junit5/app/services/OwnerJpaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
           </folding>
         </state>
       </provider>

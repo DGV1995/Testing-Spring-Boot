@@ -2,10 +2,12 @@ package com.junit5.app.models;
 
 public class Person {
 
+    private Long id;
     private String firstName;
     private String lastName;
 
-    public Person(String firstName, String lastName) {
+    public Person(Long id, String firstName, String lastName) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
     }

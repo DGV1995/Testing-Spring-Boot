@@ -11,9 +11,10 @@ class PersonTest {
 
     @BeforeEach
     public void setUp() {
-        person = new Person("Peter", "Parker");
+        person = new Person(1L, "Peter", "Parker");
     }
 
+    /**
     @Test
     public void testFirstName() {
         assertEquals("Peter", person.getFirstName());
@@ -25,13 +26,14 @@ class PersonTest {
         assertEquals("Parker", person.getLastName());
         assertNotEquals("García", person.getLastName());
     }
+    **/
 
     @Test
     public void groupedAssertions() {
         // We can do several assertions at the same time
         assertAll("Test Props Set",
-                () -> assertEquals("Peter", person.getFirstName()),
-                () -> assertEquals("Parker", person.getLastName()));
+                () -> assertEquals("Peter", person.getFirstName(), "Wrong first name!"),
+                () -> assertEquals("Parker", person.getLastName(), "Wrong last name!"));
     }
 
 }
