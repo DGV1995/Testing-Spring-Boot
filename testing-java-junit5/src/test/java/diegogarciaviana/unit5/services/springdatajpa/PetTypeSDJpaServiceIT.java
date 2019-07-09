@@ -27,5 +27,5 @@ class PetTypeSDJpaServiceIT {
     @Test
     void deleteById() {
     }
-    
+
 }
