@@ -1,5 +1,6 @@
 package diegogarciaviana.unit5.controllers;
 
+import diegogarciaviana.unit5.ControllerTests;
 import diegogarciaviana.unit5.fauxspring.Model;
 import diegogarciaviana.unit5.fauxspring.ModelMapImpl;
 import diegogarciaviana.unit5.model.Vet;
@@ -14,7 +15,7 @@ import java.util.Set;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
-class VetControllerTest {
+class VetControllerTest implements ControllerTests {
 
     private VetService vetService;
     private SpecialityMapService specialityService;
