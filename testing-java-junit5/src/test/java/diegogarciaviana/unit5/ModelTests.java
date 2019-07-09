@@ -7,9 +7,9 @@ import org.junit.jupiter.api.*;
 public interface ModelTests {
 
     // This will be execute before each test that implements this ModelTests interface (PersonTest, OwnerTest)
-    @BeforeAll
-    default void beforeAll() {
-        System.out.println("This is a Model Test\n");
+    @BeforeEach
+    default void beforeAll(TestInfo testInfo) {
+        System.out.println("Running Test - " + testInfo.getDisplayName());
     }
 
 }

@@ -1,8 +1,11 @@
 package diegogarciaviana.unit5.model;
 
 import diegogarciaviana.unit5.ModelTests;
-import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EnumSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
@@ -31,4 +34,23 @@ class OwnerTest implements ModelTests {
         assertThat(owner.getCity(), is("Key West"));
 
     }
+
+    @DisplayName("Value Source Test")
+    @ParameterizedTest(name = "{displayName} - [{index}] {arguments}")
+    @ValueSource(strings = {"Spring", "Framework", "Guru"})
+    public void testValueSource(String val) {
+        // This will print the strings defined in @ValueSource (3 repetitions, one for each value)
+        System.out.println(val);
+    }
+
+    @DisplayName("Enum Source Test")
+    @ParameterizedTest(name = "{displayName} - [{index}] {arguments}")
+    @EnumSource(OwnerType.class)
+    public void enumTest(OwnerType ownerType) {
+        // This will print the values in the enum OwnerType
+        System.out.println(ownerType);
+
+    }
+
+
 }
