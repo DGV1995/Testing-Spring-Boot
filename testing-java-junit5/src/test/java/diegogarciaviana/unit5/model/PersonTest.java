@@ -1,9 +1,11 @@
 package diegogarciaviana.unit5.model;
 
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@Tag("model")
 class PersonTest {
 
     @Test
@@ -27,4 +29,5 @@ class PersonTest {
                 () -> assertEquals(person.getFirstName(), "Joe", "First Name Failed"),
                 () -> assertEquals(person.getLastName(), "Buck", "Last Name Failed"));
     }
+
 }
