@@ -22,6 +22,8 @@ class VetControllerTest {
 
     @BeforeEach
     public void setUp() {
+
+        // VetController has a VetService as an attribute, and this VetService has a SpecialityMapService at the same time.
         specialityService = new SpecialityMapService();
         vetService = new VetMapService(specialityService);
         vetController = new VetController(vetService);
@@ -41,6 +43,7 @@ class VetControllerTest {
         String view = vetController.listVets(model);
         assertEquals("vets/index", view);
 
+        // We have saved 2 vets in the repository, so the length of this repository should be 2.
         Set modelAttribute = (Set) ((ModelMapImpl) model).getMap().get("vets");
         assertThat(modelAttribute.size()).isEqualTo(2);
 
