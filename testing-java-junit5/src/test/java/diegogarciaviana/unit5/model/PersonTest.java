@@ -1,8 +1,7 @@
 package diegogarciaviana.unit5.model;
 
 import diegogarciaviana.unit5.ModelTests;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -29,5 +28,7 @@ class PersonTest implements ModelTests {
                 () -> assertEquals(person.getFirstName(), "Joe", "First Name Failed"),
                 () -> assertEquals(person.getLastName(), "Buck", "Last Name Failed"));
     }
+
+
 
 }

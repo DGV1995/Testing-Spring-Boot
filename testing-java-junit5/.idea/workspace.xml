@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf087c10-d3f6-4763-b95f-b3146453f3d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/controllers/VetControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/controllers/VetControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,16 +98,35 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ControllerTests.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="131" selection-start-line="10" selection-start-column="131" selection-end-line="10" selection-end-column="131" />
+                <state relative-caret-position="465">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#157#158#0" expanded="true" />
-                    <element signature="e#192#193#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonRepeatedTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelRepeatedTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -116,60 +134,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#292#293#0" expanded="true" />
-                    <element signature="e#329#330#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/OwnerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
-                  <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/controllers/VetControllerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/services/map/OwnerMapServiceTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1125">
-                  <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+                  <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#824#825#0" expanded="true" />
-                    <element signature="e#884#885#0" expanded="true" />
-                    <element signature="e#1356#1357#0" expanded="true" />
-                    <element signature="e#1391#1392#0" expanded="true" />
-                    <element signature="e#1168#1169#0" expanded="true" />
-                    <element signature="e#1195#1196#0" expanded="true" />
+                    <element signature="e#361#362#0" expanded="true" />
+                    <element signature="e#421#422#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -182,8 +151,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -205,10 +174,12 @@
         <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/services/map/OwnerMapServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/controllers/IndexControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/OwnerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/controllers/VetControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ControllerTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonRepeatedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelRepeatedTests.java" />
       </list>
     </option>
   </component>
@@ -332,6 +303,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="unit5" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing-java-junit5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing-java-junit5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -342,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562667156832" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562669781596" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -375,7 +355,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Model Tests">
+  <component name="RunManager" selected="JUnit.All in testing-java-junit5">
+    <configuration name="All in testing-java-junit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Controller Tests" type="JUnit" factoryName="JUnit">
       <module name="testing-java-junit5" />
       <option name="PACKAGE_NAME" value="diegogarciaviana.unit5" />
@@ -384,20 +372,6 @@
       <option name="TEST_OBJECT" value="tags" />
       <option name="PARAMETERS" value="" />
       <tag value="controllers" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing-java-junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="diegogarciaviana.unit5.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.controllers" />
-      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.controllers.IndexControllerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,60 +387,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests$FindOwnersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonRepeatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diegogarciaviana.unit5.services.map.*" />
+          <option name="PATTERN" value="diegogarciaviana.unit5.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.services.map" />
-      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.services.map.OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests$FindOwnersTests" />
+      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.model" />
+      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.model.PersonRepeatedTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diegogarciaviana.unit5.services.map.*" />
+          <option name="PATTERN" value="diegogarciaviana.unit5.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.services.map" />
-      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.services.map.OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests" />
+      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.model" />
+      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.model.PersonTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest$TestCreatePetTypes.testPetCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.groupedAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diegogarciaviana.unit5.services.map.*" />
+          <option name="PATTERN" value="diegogarciaviana.unit5.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.services.map" />
-      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.services.map.OwnerMapServiceTest$TestCreatePetTypes" />
-      <option name="METHOD_NAME" value="testPetCount" />
+      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.model" />
+      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.model.PersonTest" />
+      <option name="METHOD_NAME" value="groupedAssertions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnerMapServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.myAssigmentRepeated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="diegogarciaviana.unit5.services.map.*" />
+          <option name="PATTERN" value="diegogarciaviana.unit5.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.services.map" />
-      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.services.map.OwnerMapServiceTest" />
+      <option name="PACKAGE_NAME" value="diegogarciaviana.unit5.model" />
+      <option name="MAIN_CLASS_NAME" value="diegogarciaviana.unit5.model.PersonTest" />
+      <option name="METHOD_NAME" value="myAssigmentRepeated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Repeated Tests" type="JUnit" factoryName="JUnit">
+      <module name="testing-java-junit5" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="repeated" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -474,19 +461,20 @@
     <list>
       <item itemvalue="JUnit.Controller Tests" />
       <item itemvalue="JUnit.Model Tests" />
-      <item itemvalue="JUnit.IndexControllerTest" />
-      <item itemvalue="JUnit.OwnerMapServiceTest" />
-      <item itemvalue="JUnit.OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests" />
-      <item itemvalue="JUnit.OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests$FindOwnersTests" />
-      <item itemvalue="JUnit.OwnerMapServiceTest$TestCreatePetTypes.testPetCount" />
+      <item itemvalue="JUnit.Repeated Tests" />
+      <item itemvalue="JUnit.PersonTest" />
+      <item itemvalue="JUnit.PersonTest.myAssigmentRepeated" />
+      <item itemvalue="JUnit.PersonTest.groupedAssertions" />
+      <item itemvalue="JUnit.PersonRepeatedTest" />
+      <item itemvalue="JUnit.All in testing-java-junit5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IndexControllerTest" />
-        <item itemvalue="JUnit.OwnerMapServiceTest" />
-        <item itemvalue="JUnit.OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests$FindOwnersTests" />
-        <item itemvalue="JUnit.OwnerMapServiceTest$TestCreatePetTypes$SaveOwnersTests" />
-        <item itemvalue="JUnit.OwnerMapServiceTest$TestCreatePetTypes.testPetCount" />
+        <item itemvalue="JUnit.All in testing-java-junit5" />
+        <item itemvalue="JUnit.PersonRepeatedTest" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonTest.groupedAssertions" />
+        <item itemvalue="JUnit.PersonTest.myAssigmentRepeated" />
       </list>
     </recent_temporary>
   </component>
@@ -504,35 +492,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IndexControllerTest - 2019.07.09 at 11h 51m 16s.xml">
-      <configuration name="IndexControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTests - 2019.07.09 at 11h 54m 32s.xml">
-      <configuration name="ControllerTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTests - 2019.07.09 at 11h 54m 45s.xml">
-      <configuration name="ControllerTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest - 2019.07.09 at 11h 54m 50s.xml">
-      <configuration name="IndexControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Controller_Tests - 2019.07.09 at 11h 56m 08s.xml">
-      <configuration name="Controller Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Model_Tests - 2019.07.09 at 11h 56m 25s.xml">
+    <history-entry file="Model_Tests - 2019.07.09 at 12h 48m 54s.xml">
       <configuration name="Model Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_Tests - 2019.07.09 at 12h 07m 23s.xml">
-      <configuration name="Controller Tests" configurationId="JUnit" />
+    <history-entry file="PersonTest_groupedAssertions - 2019.07.09 at 12h 49m 09s.xml">
+      <configuration name="PersonTest.groupedAssertions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_Tests - 2019.07.09 at 12h 08m 19s.xml">
-      <configuration name="Controller Tests" configurationId="JUnit" />
+    <history-entry file="PersonTest - 2019.07.09 at 12h 49m 49s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_Tests - 2019.07.09 at 12h 09m 13s.xml">
-      <configuration name="Controller Tests" configurationId="JUnit" />
+    <history-entry file="PersonRepeatedTest - 2019.07.09 at 12h 50m 02s.xml">
+      <configuration name="PersonRepeatedTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Model_Tests - 2019.07.09 at 12h 11m 28s.xml">
-      <configuration name="Model Tests" configurationId="JUnit" />
+    <history-entry file="Model_Repeated_Tests - 2019.07.09 at 12h 51m 59s.xml">
+      <configuration name="Model Repeated Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Model_Repeated_Tests - 2019.07.09 at 12h 52m 28s.xml">
+      <configuration name="Model Repeated Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Model_Repeated_Tests - 2019.07.09 at 12h 53m 00s.xml">
+      <configuration name="Model Repeated Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Model_Repeated_Tests - 2019.07.09 at 12h 53m 30s.xml">
+      <configuration name="Model Repeated Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Repeated_Tests - 2019.07.09 at 12h 54m 46s.xml">
+      <configuration name="Repeated Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_testing-java-junit5 - 2019.07.09 at 12h 56m 12s.xml">
+      <configuration name="All in testing-java-junit5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -707,20 +695,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/controllers/VetControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="131" selection-start-line="10" selection-start-column="131" selection-end-line="10" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,27 +724,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ControllerTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/model/PersonRepeatedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="131" selection-start-line="10" selection-start-column="131" selection-end-line="10" selection-end-column="131" />
+        <state relative-caret-position="135">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/diegogarciaviana/unit5/ModelRepeatedTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
