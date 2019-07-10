@@ -8,6 +8,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.util.Optional;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -20,6 +23,26 @@ class SpecialitySDJpaServiceTest {
     @InjectMocks
     SpecialitySDJpaService service;
 
+    @Test
+    void findById() {
+        Speciality speciality = new Speciality();
+        when(specialtyRepository.findById(1L)).thenReturn(Optional.of(speciality));
+
+        Speciality foundSpeciality = service.findById(1L);
+        assertThat(foundSpeciality).isNotNull();
+
+        // Verify that mock implementation was called once, using argument matcher
+        verify(specialtyRepository).findById(anyLong());
+    }
+
+    @Test
+    void deleteByObject() {
+        Speciality speciality = new Speciality();
+        service.delete(speciality);
+
+        // Verify method with argument matcher
+        verify(specialtyRepository).delete(any(Speciality.class));
+    }
 
     @Test
     void deleteById() {
