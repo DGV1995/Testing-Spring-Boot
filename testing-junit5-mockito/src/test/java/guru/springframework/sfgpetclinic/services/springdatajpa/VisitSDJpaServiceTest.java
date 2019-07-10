@@ -18,7 +18,6 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.BDDMockito.then;
-import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class VisitSDJpaServiceTest {
@@ -43,14 +42,13 @@ class VisitSDJpaServiceTest {
         assertThat(foundVisits).isNotNull();
         assertTrue(visits.size() == 1);
         then(repository).should().findAll();
-        then(repository).shouldHaveNoMoreInteractions();
     }
 
     @Test
     void findById() {
         // Given
         Visit visit = new Visit();
-        given(repository.findById(1L)).willReturn(Optional.of(visit));
+        given(repository.findById(anyLong())).willReturn(Optional.of(visit));
 
         // When
         Visit foundVisit = service.findById(1L);
@@ -58,31 +56,30 @@ class VisitSDJpaServiceTest {
         // Then
         assertThat(foundVisit).isNotNull();
         then(repository).should().findById(anyLong());
-        then(repository).shouldHaveNoMoreInteractions();
     }
 
     @Test
     void save() {
         // Given - none
+        Visit visit = new Visit();
 
         // When
-        service.save(new Visit());
+        service.save(visit);
 
         // Then
         then(repository).should().save(any(Visit.class));
-        then(repository).shouldHaveNoMoreInteractions();
     }
 
     @Test
     void delete() {
         // Given - none
+        Visit visit = new Visit();
 
         // When
-        service.delete(new Visit());
+        service.delete(visit);
 
         // Then
         then(repository).should().delete(any(Visit.class));
-        then(repository).shouldHaveNoMoreInteractions();
     }
 
     @Test
@@ -94,7 +91,6 @@ class VisitSDJpaServiceTest {
 
         // Then
         then(repository).should().deleteById(anyLong());
-        then(repository).shouldHaveNoMoreInteractions();
     }
 
 }

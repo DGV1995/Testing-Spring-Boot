@@ -29,7 +29,7 @@ class SpecialitySDJpaServiceTest {
     @Test
     void findById() {
         Speciality speciality = new Speciality();
-        when(specialtyRepository.findById(1L)).thenReturn(Optional.of(speciality));
+        when(specialtyRepository.findById(anyLong())).thenReturn(Optional.of(speciality));
 
         Speciality foundSpeciality = service.findById(1L);
         assertThat(foundSpeciality).isNotNull();
@@ -43,7 +43,7 @@ class SpecialitySDJpaServiceTest {
     void findByIdTest() {
         // Given
         Speciality speciality = new Speciality();
-        given(specialtyRepository.findById(1L)).willReturn(Optional.of(speciality));
+        given(specialtyRepository.findById(anyLong())).willReturn(Optional.of(speciality));
 
         // When
         Speciality foundSpeciality = service.findById(1L);
