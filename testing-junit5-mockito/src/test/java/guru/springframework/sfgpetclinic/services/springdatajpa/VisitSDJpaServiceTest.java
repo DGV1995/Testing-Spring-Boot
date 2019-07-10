@@ -8,13 +8,15 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.util.HashSet;
 import java.util.Optional;
+import java.util.Set;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class VisitSDJpaServiceTest {
@@ -27,7 +29,16 @@ class VisitSDJpaServiceTest {
 
     @Test
     void findAll() {
+        Set<Visit> visits = new HashSet<>();
+        visits.add(new Visit());
 
+        when(repository.findAll()).thenReturn(visits);
+
+        Set<Visit> foundVisits = service.findAll();
+        assertThat(foundVisits).isNotNull();
+        assertTrue(visits.size() == 1);
+
+        verify(repository).findAll();
     }
 
     @Test
@@ -43,14 +54,12 @@ class VisitSDJpaServiceTest {
 
     @Test
     void save() {
-        //Visit visit = new Visit();
         service.save(new Visit());
         verify(repository).save(any(Visit.class));
     }
 
     @Test
     void delete() {
-        //Visit visit = new Visit();
         service.delete(new Visit());
         verify(repository).delete(any(Visit.class));
     }
