@@ -69,4 +69,5 @@ class VisitSDJpaServiceTest {
         service.deleteById(1L);
         verify(repository).deleteById(anyLong());
     }
+
 }
